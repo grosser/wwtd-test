@@ -1,3 +1,7 @@
 gemfiles:
  - Gemfile
  - gemfiles/test.gemfile
+install:
+  bundle install --verbose --local
+script:
+ - bundle exec echo "hi"

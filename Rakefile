@@ -1,4 +1,3 @@
 require 'wwtd/tasks'
 
-task :default do
-end
+task default: 'wwtd:local'
